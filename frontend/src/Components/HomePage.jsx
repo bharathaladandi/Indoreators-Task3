@@ -29,7 +29,7 @@ export const HomePage = () => {
                 <label style={{ color: 'white', fontSize: '30px' }}>
                     Phone Number:
                     <input style={{ height: '30px', width: '40%', margin: '10px' }}
-                        type="text"
+                        type="number"
                         value={phoneNumber}
                         onChange={(e) => setPhoneNumber(e.target.value)}
                     />
